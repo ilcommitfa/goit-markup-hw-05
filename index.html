@@ -58,7 +58,7 @@
             Ефективні рішення для <br />
             вашого бізнесу
           </h1>
-          <button type="button" class="hero-btn">Замовити послугу</button>
+          <button class="hero-btn" data-modal-open>Замовити послугу</button>
         </div>
       </section>
       <section class="section">
@@ -116,17 +116,23 @@
         <div class="container">
           <h2 class="services-title">Чим ми займаємося</h2>
           <ul class="services-list">
-            <li class="serices-list-item">
-              <img src="./images/box1.jpg" alt="Services1" width="370" height="294" />
-              <p class="services-name">Десктопні додатки</p>
+            <li>
+              <div class="services-thumb">
+                <img src="./images/box1.jpg" alt="Services1" width="370" height="294" />
+                <p class="services-name">Десктопні додатки</p>
+              </div>
             </li>
-            <li class="serices-list-item">
-              <img src="./images/box2.jpg" alt="Services2" width="370" height="294" />
-              <p class="services-name">Мобільні додатки</p>
+            <li>
+              <div class="services-thumb">
+                <img src="./images/box2.jpg" alt="Services2" width="370" height="294" />
+                <p class="services-name">Мобільні додатки</p>
+              </div>
             </li>
-            <li class="serices-list-item">
-              <img src="./images/box3.jpg" alt="Services3" width="370" height="294" />
-              <p class="services-name">Дизайнерські рішення</p>
+            <li>
+              <div class="services-thumb">
+                <img src="./images/box3.jpg" alt="Services3" width="370" height="294" />
+                <p class="services-name">Дизайнерські рішення</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -492,5 +498,11 @@
         </div>
       </div>
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button class="modal-close-btn" data-modal-close>&#215;</button>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
