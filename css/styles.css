@@ -474,11 +474,10 @@ header {
     position: relative;
 }
 
-.card-item:hover .overlay-text,
-.card-item:focus .overlay-text {
+.project-link:hover .overlay-text,
+.project-link:focus .overlay-text {
     transform: translateY(0);
     opacity: 1;
-
 }
 
 .overlay {
