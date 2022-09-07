@@ -435,6 +435,9 @@ header {
 
 .clients-link {
     display: flex;
+    align-items: center;
+    justify-content: center;
+    
     color: #AFB1B8;
     height: 92px;
     border: 1px solid #AFB1B8;
@@ -450,7 +453,6 @@ header {
 }
 
 .icon-clients {
-    margin: auto;
     fill: currentColor;
 }
 
